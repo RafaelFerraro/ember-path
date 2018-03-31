@@ -1,2 +1,9 @@
 {{hello-worldapp}}
+
+<section>
+  {{#each model as |post|}}
+    {{#link-to 'posts' post}}{{post.title}}{{/link-to}}
+  {{/each}}
+</section>
+
 {{outlet}}
