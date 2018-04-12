@@ -11,6 +11,7 @@ Router.map(function() {
   this.route('conditional');
   this.route('students');
   this.route('posts', { path: 'posts/:id' });
+  this.route('numbers');
   this.route('about', { path: '/aboutme' }, function() {
     this.route('location');
     this.route('job');
