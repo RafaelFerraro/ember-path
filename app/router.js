@@ -12,6 +12,7 @@ Router.map(function() {
   this.route('students');
   this.route('posts', { path: 'posts/:id' });
   this.route('numbers');
+  this.route('books', {path: 'books/:id'});
   this.route('about', { path: '/aboutme' }, function() {
     this.route('location');
     this.route('job');
