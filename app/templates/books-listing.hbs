@@ -1,0 +1,9 @@
+<section>
+  <h3> Books listing </h3>
+
+  {{#each model as |book|}}
+    {{#link-to 'books' book}}
+      <b>{{book.id}}</b>: <i>{{book.title}}</i> <br>
+    {{/link-to}}
+  {{/each}}
+</section>

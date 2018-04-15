@@ -1,4 +1,10 @@
 {{outlet}}
 <section>
-  {{model.title}}
+  <h5>Book details</h5>
+  <i>Book's ID</i>: {{model.id}}<br>
+  <i>Book's Title</i>: {{model.title}}<br>
+
+  <p>
+    {{#link-to 'books-listing'}}Go back to books listing{{/link-to}}
+  </p>
 </section>
