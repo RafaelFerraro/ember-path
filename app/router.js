@@ -18,6 +18,9 @@ Router.map(function() {
     this.route('location');
     this.route('job');
   });
+  this.route('schools', function() {
+    this.route('students');
+  });
 });
 
 export default Router;
