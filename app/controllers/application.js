@@ -9,5 +9,9 @@ export default Controller.extend({
     pressed() {
       alert('Input was pressed');
     },
+
+    moveTo() {
+      this.transitionToRoute('students');
+    },
   }
 });
