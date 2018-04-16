@@ -7,6 +7,7 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('questions');
   this.route('helloworldapp');
   this.route('conditional');
   this.route('students');
