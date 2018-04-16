@@ -10,6 +10,7 @@ Router.map(function() {
   this.route('helloworldapp');
   this.route('conditional');
   this.route('students');
+  this.route('bikes');
   this.route('posts', { path: 'posts/:id' });
   this.route('numbers');
   this.route('books-listing', {path: 'books'});
