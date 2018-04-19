@@ -7,6 +7,7 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('musicians');
   this.route('fruits');
   this.route('questions');
   this.route('helloworldapp');
