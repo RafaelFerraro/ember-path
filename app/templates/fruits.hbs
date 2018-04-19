@@ -1,0 +1,12 @@
+<section>
+  <input type="text" value={{property1}}> One way input - this does not update the property <br>
+
+  <b>Value of Property1: </b> {{property1}}<br>
+  <b>Value of Property2: </b> {{property2}}<br>
+  <b>Value of Property3: </b> {{property3}}<br>
+
+  {{ input type="text" value=property1 }} Two way input helper - this updates the property <br>
+
+  <button {{action 'enter'}}>Print values in console</button><br>
+  <button {{action 'toggleProperty3'}}>Click to Toggle Property3</button><br>
+</section>
