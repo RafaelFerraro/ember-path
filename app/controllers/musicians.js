@@ -11,5 +11,9 @@ export default Controller.extend({
       // return true indicates that similar action in router could be called
       return true;
     },
+
+    enter() {
+      this.transitionToRoute('melodies');
+    },
   },
 });
